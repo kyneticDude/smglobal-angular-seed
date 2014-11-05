@@ -8,10 +8,11 @@
  * Controller of the smglobalApp
  */
 angular.module('smglobalApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('MainController', ['$scope', '$http', function ($scope, $http) {
+    $http.get('js/partners.json').success(function(data){
+    	$scope.partners = data;
+    });
+    $http.get('js/services.json').success(function(data){
+    	$scope.offering = data;
+    });
+  }]);

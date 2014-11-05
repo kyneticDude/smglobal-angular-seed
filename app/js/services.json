@@ -1,0 +1,34 @@
+[
+	{
+		"title": "Computer Support",
+		"summary": "Day-to-day IT support and computer management"
+	},
+	{
+		"title": "Network Solutions",
+		"summary": "Network management and daily network monitoring"
+	},
+	{
+		"title": "Data Recovery",
+		"summary": "Data backup management, disaster recovery"
+	},
+	{
+		"title": "Hosting Services",
+		"summary": "Cloud computing, website hosting, implementation"
+	},
+	{
+		"title": "Procurement",
+		"summary": "Procurement of computer hardware and software"
+	},
+	{
+		"title": "Vendor Management",
+		"summary": "Develop, manage, control of vendor contracts"
+	},
+	{
+		"title": "Security Management",
+		"summary": "Firewalls, computer protection, email, internet security"
+	},
+	{
+		"title": "Green IT",
+		"summary": "Eco-friendly and energy saving IT environment"
+	}
+]

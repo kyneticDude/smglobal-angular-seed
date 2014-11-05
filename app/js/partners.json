@@ -1,0 +1,32 @@
+[
+	{
+	    	"name": "Microsoft",
+            "description": "Global leader in multinational computer technologies. They develop, manufacture, license, and support a wide range of software products for computing devices.",
+	    	"images": "images/partners/microsoft-logo.jpg"
+    	},
+    	{
+    		"name": "HP",
+            "description": "An American multinational information technology corporation that    provides products, technologies, software, solutions and services to consumers, small and medium sized businesses (SMBs) and large enterprises.",
+    		"images": "images/partners/hp-logo.jpg"
+    	},
+    	{
+    		"name": "Cisco",
+            "description": "One of the leading manufacturers of network equipment. Cisco's primary business is in internetworking products for enterprise and service providers, small Businesses and the home, such as routers, bridges, and switches.",
+    		"images": "images/partners/cisco-logo.jpg"
+    	},
+    	{
+    		"name": "Symantec",
+            "description": "For the busy business, Symantec Backup Exec System Recovery replaces confusion with confidence, offering complete data protection set-up in less than 10 minutes through three simple steps. In one simple yet comprehensive package proven in millions of installations worldwide, you get a total solution for data backup, system restoration and disaster recovery.",
+    		"images": "images/partners/symantec-logo.jpg"
+    	},
+    	{
+    		"name": "Dell",
+            "description": "For more than 28 years, Dell has empowered countries, communities, customers and people everywhere to use technology to realize their dreams. Dell offers to deliver end-to-end solutions that address your integration challenges without the cost and complexity of installing and maintaining software.",
+    		"images": "images/partners/dell-logo.jpg"
+    	},
+    	{
+    		"name": "IBM",
+            "description": "The International Business Machines Corporation (IBM) is an American multinational technology and consulting corporation, with headquarters in Armonk, New York, United States. IBM manufactures and markets computer hardware and software, and offers infrastructure, hosting and consulting services in areas ranging from mainframe computers to nanotechnology.",
+    		"images": "images/partners/ibm-logo.jpg"
+    	}
+]

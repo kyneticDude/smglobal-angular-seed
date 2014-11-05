@@ -1,0 +1,26 @@
+[
+	{
+	    	"name": "Microsoft",
+	    	"images": "images/partners/microsoft-logo.jpg"
+    	},
+    	{
+    		"name": "HP",
+    		"images": "images/partners/hp-logo.jpg"
+    	},
+    	{
+    		"name": "Cisco",
+    		"images": "images/partners/cisco-logo.jpg"
+    	},
+    	{
+    		"name": "Symantec",
+    		"images": "images/partners/symantec-logo.jpg"
+    	},
+    	{
+    		"name": "Dell",
+    		"images": "images/partners/dell-logo.jpg"
+    	},
+    	{
+    		"name": "IBM",
+    		"images": "images/partners/ibm-logo.jpg"
+    	}
+]
