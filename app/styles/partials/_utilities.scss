@@ -1,0 +1,130 @@
+.mg-bottom {
+	margin-bottom: 40px;
+}
+.mg-top {
+	margin-top: 40px;
+}
+.mg-topbottom {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+/* Sprite Sheets */
+.smgt-icon-leadership {background: url(../images/sprites/smgt-benefits-sprite.png) no-repeat; background-position: 0 0px; width: 63px; height: 65px; display: block; margin: 0 auto;}
+.smgt-icon-cashreg {background: url(../images/sprites/smgt-benefits-sprite.png) no-repeat; background-position: 0 -68px; width: 63px; height: 65px; display: block; margin: 0 auto;}
+.smgt-icon-applications {background: url(../images/sprites/smgt-benefits-sprite.png) no-repeat; background-position: 0 -131px; width: 63px; height: 65px; display: block; margin: 0 auto;}
+.smgt-icon-infra {background: url(../images/sprites/smgt-benefits-sprite.png) no-repeat; background-position: 0 -196px; width: 63px; height: 65px; display: block; margin: 0 auto;}
+.smgt-icon-people {background: url(../images/sprites/smgt-benefits-sprite.png) no-repeat; background-position: 0 -260px; width: 63px; height: 65px; display: block; margin: 0 auto;}
+.smgt-icon-outcomes {background: url(../images/sprites/smgt-benefits-sprite.png) no-repeat; background-position: 0 -326px; width: 63px; height: 65px; display: block; margin: 0 auto;}
+
+
+/* IMAGE SPRITES */
+.img-wrap {
+	display: block;
+}
+img.saturated {
+	display: block;
+	margin: 0 auto;
+	border: 0 none;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+}
+.sliced {
+	position: relative;
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		border-bottom: 1px solid #d50004;
+		width: 20%;
+		top: 21px;
+		left: 0;
+	}
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		border-bottom: 1px solid #d50004;
+		width: 20%;
+		top: 21px;
+		right: 0;
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	.sliced {
+		position: relative;
+		&:before {
+			width: 35%;
+			left: 2%;
+		}
+		&:after {
+			width: 35%;
+			right: 2%;
+		}
+	}
+}
+
+/* ANCHOR LINKS */
+.h-link-dark {
+	color: $smgt-blue;
+	&:hover {
+		color: $smgt-red;
+	}
+}
+footer a {
+	color: #fff;
+	&:hover {
+		color: darken(#fff, 30%);
+	}
+}
+
+
+/* FOOTER LOGO */
+.footer-logo {
+	display: block;
+	margin-top: 10px;
+	background: #fff;
+	width: 53%;
+	padding: 0 5px 2px;
+	img {
+		width: 100%;
+		max-width: 200px;
+	}
+}
+
+
+.details {
+	display: inline-block;
+	margin-right: 10px;
+	width: 20%;
+	padding-right: 10px;
+	border-right: 1px solid #fff;
+	line-height: 10px;
+}
+.hidden {
+	opacity: 0;
+}
+.visible {
+	opacity: 1;
+}
+.linetop {
+	padding-top: 10px;
+	border-top: 1px solid #999;
+	display: block;
+}
+.whitespace-top {
+	margin-top: 10px;
+}
+.map {
+	width: 100%;
+	height: 350px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	& iframe {
+		width: 100%;
+		height: 100%;
+	}
+}

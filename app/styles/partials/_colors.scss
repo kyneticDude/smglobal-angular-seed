@@ -1,0 +1,87 @@
+$smgt-grey-1: #cfd9d9;
+$smgt-grey-2: #a5adab; 
+$smgt-red: #E74C3C;
+$smgt-dark-grey: #3e4c4c;
+$smgt-blue: #2C3E50;
+$smgt-primary: #333;
+$smgt-secondary: #ECF0F1;
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkdin: #0976b4;
+
+
+body {
+	color: $smgt-primary;
+}
+
+/* NAVIGATION */
+nav a {
+	color: $smgt-grey-1;
+}
+
+
+
+/* CONTAINERS */
+/*.call-to-action {
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 20px solid #364041;
+	}
+}*/
+.smgt-benefit {
+	background: #f8f7f7;
+	position: relative;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		border-left: 40px solid transparent;
+		border-right: 40px solid transparent;
+		border-top: 40px solid #fff;
+	}
+}
+.sect-wrap {
+	background: $smgt-secondary;
+}
+.partners {
+	background: $smgt-secondary;
+}
+.tanned {
+	background: lighten($smgt-grey-2, 20%);
+}
+footer {
+	background: $smgt-blue;
+}
+ul.catalogue {
+	li.lighter {
+		background: lighten($smgt-grey-1, 10%);
+	}
+	.price-option {
+		background: lighten($smgt-grey-1, 12%);
+		border-left: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+	}
+}
+
+/* BUTTONS */
+.btn-primary {
+	background-color: $smgt-red;
+	&:hover {
+		background-color: darken($smgt-red, 5%);
+	}
+}
+.btn-secondary {
+	background-color: $smgt-dark-grey;
+	&:hover {
+		background-color: lighten($smgt-dark-grey, 10%);
+		color: #fff;
+	}
+}

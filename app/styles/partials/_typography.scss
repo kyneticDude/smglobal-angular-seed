@@ -1,0 +1,163 @@
+body {
+	font-family: "Open Sans", helvetica neue, sans-serif;
+}
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.usr-info {
+
+	p, a {
+		color: #333;
+	}
+}
+h2, h3, h4, h4 {
+	color: $smgt-blue;
+}
+h5 {
+	font-family: open sans;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	margin: 0 0 10px;
+	/*text-transform: uppercase;*/
+}
+
+.jumbotron {
+	h2 {
+		font-size: 36px;
+	}
+	p {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+.lrg-heading {
+	h3 {
+		font-family: open sans;
+		font-size: 45px;
+		font-weight: 900;
+		letter-spacing: -1px;
+		line-height: 1.8;
+		text-transform: capitalize;
+		position: relative;
+	}
+	h4 {
+		font-family: open sans;
+		font-size: 24px;
+		font-weight: 900;
+		letter-spacing: -1px;
+		line-height: 36px;
+		text-transform: uppercase;
+		position: relative;
+		margin-bottom: 5px;
+	}
+}
+.mdm-heading {
+	h3 {
+		font-size: 45px;
+		margin-top: 0;
+		margin-bottom: 15px;
+		&:before {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			border-right: 5px solid $smgt-red;
+			width: 5px;
+			height: 30px;
+			margin-right: 15px;
+		}
+	}
+}
+.col-section {
+	.lrg-heading {
+		position: relative;
+		&:after {
+			content: "";
+			display: inline-block;
+			position: absolute;
+			bottom: -20px;
+			height: 2px;
+			text-align: center;
+			width: 63%;
+			left: 19%;
+			background: #a5adab;
+		}
+	}
+}
+.lead-lrg {
+	color: #95A5A6;
+	font-size: 18px;
+	line-height: 1.3;
+	margin-bottom: 30px;
+}
+.inline-heading {
+	position: relative;
+	.inline {
+		display: inline-block;
+	}
+	span {
+		display: inline-block;
+		&:before {
+			content: "-";
+			display: inline-block;
+			margin: 0 5px;
+		}
+	}
+}
+.disc-list {
+	list-style: disc;
+	margin: 0 25px 40px;
+}
+.call-to-action {
+	p.lead-lrg {
+		font-size: 24px;
+		line-height: 36px;
+		color: #fff;
+		font-weight: normal;
+	}
+}
+.col-mid p {
+	margin-bottom: 40px;
+}
+.smgt-offering .glyph {
+	text-align: center;
+	h4 {
+		text-transform: capitalize;
+	}
+	p {
+		font-size: 14px;
+		line-height: normal;
+	}
+}
+.glyph i {
+	i {
+		font-size: 40px;
+	}
+}
+footer {
+	.content-wrap {
+		li, address {
+			font-size: 14px;
+			line-height: 1.6;
+		}
+	}
+	ul.foot-links {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		.details {
+			padding-right: 20px;
+			width: 90px;
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+	p.copyright-print {
+		font-size: 10.21px;
+		margin: 0;
+		line-height: 30px;
+	}
+}
